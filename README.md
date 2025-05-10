@@ -2,9 +2,13 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
-
+First build the project and then run the development server: 
 ```bash
+npm install
+#or
+npm i
+
+## Run development server
 npm run dev
 # or
 yarn dev
@@ -14,7 +18,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000] or if you got another port then first try to close all other projects and then try to run it again, else you could change port directoly inside code
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
